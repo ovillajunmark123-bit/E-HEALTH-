@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Appointments</title>
+  <style>
+    body { margin:0; font-family:'Georgia',serif; background:linear-gradient(135deg,#000428,#004e92); color:white; }
+    header { background:#001f3f; padding:20px; text-align:center; font-size:2em; color:gold; text-shadow:0 0 10px #ffcc00; }
+    .container { max-width:900px; margin:40px auto; text-align:center; }
+    .calendar { background:rgba(255,255,255,0.1); border:2px solid gold; border-radius:10px; padding:20px; margin-bottom:30px; }
+    .slots { background:rgba(255,255,255,0.1); border:2px solid gold; border-radius:10px; padding:20px; }
+    .slot { margin:10px; padding:10px; background:gold; color:#333; border-radius:5px; cursor:pointer; display:inline-block; }
+    .slot:hover { background:#ff9900; }
+    button { margin-top:20px; padding:10px 20px; background:gold; border:none; border-radius:5px; cursor:pointer; font-weight:bold; color:#333; }
+    button:hover { background:#ff9900; }
+  </style>
+</head>
+<body>
+  <header>Barangay E-Health | Appointments</header>
+  <div class="container">
+    <div class="calendar">
+      <h2>Select Your Appointment</h2>
+      <p>March 2024</p>
+    </div>
+    <div class="slots">
+      <h3>Choose Time Slot</h3>
+      <div class="slot">8:00 AM</div>
+      <div class="slot">9:30 AM</div>
+      <div class="slot">10:00 AM</div>
+      <div class="slot">11:00 AM</div>
+      <div class="slot">1:00 PM</div>
+    </div>
+    <button>Confirm Appointment</button>
+    <button onclick="location.href='services.html'">⬅ Back to Dashboard</button>
+  </div>
+</body>
+</html>
