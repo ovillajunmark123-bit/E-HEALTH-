@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emergency Alerts</title>
+  <style>
+    body { margin:0; font-family:'Georgia',serif; background:linear-gradient(135deg,#000428,#004e92); color:white; }
+    header { background:#001f3f; padding:20px; text-align:center; font-size:2em; color:gold; text-shadow:0 0 10px #ffcc00; }
+    .container { max-width:900px; margin:40px auto; text-align:center; }
+    .alert { background:rgba(255,255,255,0.1); border:2px solid gold; border-radius:10px; padding:20px; margin:15px; text-align:left; }
+    .alert h3 { color:gold; margin-bottom:10px; }
+    .alert p { margin:5px 0; }
+    .hotline { background:rgba(255,0,0,0.2); border:2px solid red; border-radius:10px; padding:20px; margin-top:30px; }
+    button { margin-top:20px; padding:10px 20px; background:gold; border:none; border-radius:5px; cursor:pointer; font-weight:bold; color:#333; }
+    button:hover { background:#ff9900; }
+  </style>
+</head>
+<body>
+  <header>Barangay E-Health | Emergency Alerts</header>
+  <div class="container">
+    <div class="alert">
+      <h3>Disease Outbreak Alert</h3>
+      <p>Dengue Cases Rising!</p>
+      <p>Date: March 1, 2024</p>
+    </div>
+    <div class="alert">
+      <h3>Important Advisory</h3>
+      <p>Typhoon Signal No. 3</p>
+      <p>Date: March 5, 2024</p>
+    </div>
+    <div class="alert">
+      <h3>Community Warning</h3>
+      <p>Power Outage in Area</p>
+      <p>Date: March 7, 2024</p>
+    </div>
+    <div class="hotline">
+      <h3>Emergency Hotline</h3>
+      <p>CALL 911</p>
+      <p>Barangay Hotline: (0917) 123-4567</p>
+    </div>
+    <button onclick="location.href='services.html'">⬅ Back to Dashboard</button>
+  </div>
+</body>
+</html>
