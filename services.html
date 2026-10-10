@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Barangay E-Health Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: linear-gradient(135deg, #000428, #004e92);
+      color: white;
+    }
+
+    header {
+      background-color: #001f3f;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: gold;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      text-shadow: 0 0 10px #ffcc00;
+    }
+
+    nav a {
+      color: gold;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff9900;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px;
+    }
+
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      color: #ddd;
+    }
+
+    .services {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 30px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      border: 2px solid gold;
+      border-radius: 10px;
+      width: 250px;
+      margin: 15px;
+      padding: 20px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      background: rgba(255,255,255,0.2);
+      transform: scale(1.05);
+    }
+
+    .card h3 {
+      color: gold;
+      margin-bottom: 10px;
+    }
+
+    .card button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: gold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .card button:hover {
+      background-color: #ff9900;
+    }
+
+    footer {
+      background-color: #001f3f;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Barangay E-Health</h1>
+    <nav>
+      <a href="consultation.html">Consultation</a>
+      <a href="records.html">Health Records</a>
+      <a href="appointments.html">Appointments</a>
+      <a href="education.html">Education Hub</a>
+      <a href="alerts.html">Emergency Alerts</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Empowering Community Health Through Technology</h2>
+    <p>Access essential health services online, anytime, anywhere.</p>
+  </section>
+
+  <section class="services">
+    <div class="card">
+      <h3>Online Consultation</h3>
+      <p>Talk to a Health Professional</p>
+      <button onclick="location.href='consultation.html'">Get Started</button>
+    </div>
+    <div class="card">
+      <h3>Health Records</h3>
+      <p>View Your Medical History</p>
+      <button onclick="location.href='records.html'">View Records</button>
+    </div>
+    <div class="card">
+      <h3>Appointments</h3>
+      <p>Schedule Your Visit</p>
+      <button onclick="location.href='appointments.html'">Book Now</button>
+    </div>
+    <div class="card">
+      <h3>Education Hub</h3>
+      <p>Learn Health Tips & Info</p>
+      <button onclick="location.href='education.html'">Explore</button>
+    </div>
+    <div class="card">
+      <h3>Emergency Alerts</h3>
+      <p>Stay Updated on Advisories</p>
+      <button onclick="location.href='alerts.html'">View Alerts</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact Us | Barangay Hall, Brgy. San Isidro, City, Philippines</p>
+    <p>&copy; 2028 Barangay E‑Health | Empowering the Community through Health Innovation</p>
+  </footer>
+</body>
+</html>
