@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Barangay E-Health</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: linear-gradient(135deg, #004e92, #000428);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 30px;
+      font-size: 3em;
+      font-weight: bold;
+      color: gold;
+      text-transform: uppercase;
+      text-shadow: 0 0 15px #ffcc00;
+    }
+
+    .tagline {
+      font-size: 1.5em;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    .welcome {
+      margin-top: 20px;
+      font-size: 1.2em;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .icon {
+      background: rgba(255,255,255,0.1);
+      border: 2px solid gold;
+      border-radius: 10px;
+      width: 200px;
+      margin: 15px;
+      padding: 20px;
+      transition: 0.3s;
+    }
+
+    .icon:hover {
+      background: rgba(255,255,255,0.2);
+      transform: scale(1.05);
+    }
+
+    .icon h3 {
+      color: gold;
+      margin-top: 10px;
+    }
+
+    .enter-btn {
+      margin-top: 50px;
+      padding: 15px 40px;
+      font-size: 1.3em;
+      border: none;
+      border-radius: 10px;
+      background: gold;
+      color: #333;
+      cursor: pointer;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .enter-btn:hover {
+      background: #ff9900;
+      transform: scale(1.1);
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>Barangay E-Health</header>
+  <div class="tagline">Digital Health Services for the Community</div>
+  <div class="welcome">Welcome to Barangay E‑Health. Access healthcare services online, anytime, anywhere.</div>
+
+  <div class="icons">
+    <div class="icon">
+      <h3>Online Consultation</h3>
+    </div>
+    <div class="icon">
+      <h3>Health Records</h3>
+    </div>
+    <div class="icon">
+      <h3>Appointments</h3>
+    </div>
+    <div class="icon">
+      <h3>Health Education</h3>
+    </div>
+  </div>
+
+  <button class="enter-btn" onclick="goToServices()">ENTER SITE</button>
+
+  <footer>&copy; 2026 Barangay E‑Health | Empowering the Community through Health Innovation</footer>
+
+  <script>
+    function goToServices() {
+      window.location.href = "services.html";
+    }
+  </script>
+</body>
+</html>
